@@ -1,4 +1,4 @@
-<h1>Roster</h1>
+<h1>Team Roster</h1>
 <br>
 
 
@@ -6,18 +6,19 @@
 
 <select (change)="onChange($event.target.value)">
      <option value="allPlayers" selected="selected">All Players</option>
-     <option value="guard">Guards</option>
-     <option value="forward">Forwards</option>
-     <option value="center">Centers</option>
+     <option value="guard">Guard</option>
+     <option value="forward">Forward</option>
+     <option value="center">Center</option>
    </select>
 <br><br>
 
 <div class="row">
   <div *ngFor="let player of players | async | position:filterByPosition" >
-  <div class="col-md-6">
+  <div class="col-sm-6">
     <div class="panel panel-success">
       <div class="panel-body">
-        <h3 (click)="goToDetailPage(player)"><em>{{player.name}}</em> - {{player.position}}</h3>
+        <h3 (click)="goToDetailPage(player)">{{player.name}} - <em>{{player.position}}</em></h3>
+        <!-- <h3><em>{{player.position}}</em></h3> -->
         <div *ngIf="currentRoute === '/admin'">
           {{player.number}}
           <hr>

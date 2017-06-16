@@ -8,7 +8,7 @@
   bottom: 0;
   width: 100%;
   height: 60px;
-  background-color: #72BE92;
+  background-color: #5B9675;
   padding: 15px;
   text-align: center;
 }
@@ -38,9 +38,16 @@
   font-family: 'Monoton', cursive;
 }
 
-.highlight:hover{
-   color: white;
+.cityname{
+  color: #104627;
+  font-size: 24px;
+  font-style: italic;
+  font-family: 'Monoton', cursive;
 }
+
+/*.highlight:hover{
+   color: white;
+}*/
 
 .navbar-header {
   text-align: center;
