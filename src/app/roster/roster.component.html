@@ -15,7 +15,7 @@
 <div class="row">
   <div *ngFor="let player of players | async | position:filterByPosition" >
   <div class="col-md-6">
-    <div class="panel panel-primary">
+    <div class="panel panel-success">
       <div class="panel-body">
         <h3 (click)="goToDetailPage(player)"><em>{{player.name}}</em> - {{player.position}}</h3>
         <div *ngIf="currentRoute === '/admin'">
