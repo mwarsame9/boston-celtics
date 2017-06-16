@@ -1,3 +1,25 @@
-<h1>
-  {{title}}
-</h1>
+
+<nav class="navbar navbar-default navbar-custom">
+  <div class="nav-color">
+    <div class="container-fluid">
+        <!-- <div class="navbar-brand highlight"><span>Epicodus</span>Tunes</div> -->
+        <ul class="nav navbar-nav navbar-center">
+          <li><a routerLink="">Home</a></li>
+          <li><a routerLink="about">About</a></li>
+          <li><a routerLink="roster">Roster</a></li>
+        </ul>
+    </div>
+  </div>
+</nav>
+
+<div class="container">
+  <!-- <h1>{{title}}</h1> -->
+  <router-outlet></router-outlet>
+</div>
+<br><br><br>
+<footer class="footer">
+  <div>
+    <a class="text" routerLink="admin">Admin</a>
+    <div class="highlight"><span>Boston</span>Celtics</div>
+  </div>
+</footer>

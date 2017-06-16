@@ -13,6 +13,7 @@ import { AdminComponent } from './admin/admin.component';
 import { masterFirebaseConfig } from './api-keys';
 import { AngularFireModule } from 'angularfire2';
 import { AngularFireDatabaseModule } from 'angularfire2/database';
+import { PositionPipe } from './position.pipe';
 
 export const firebaseConfig = {
   apiKey: masterFirebaseConfig.apiKey,
@@ -29,7 +30,8 @@ export const firebaseConfig = {
     EditPlayerComponent,
     PlayerDetailComponent,
     AboutComponent,
-    AdminComponent
+    AdminComponent,
+    PositionPipe
   ],
   imports: [
     BrowserModule,
