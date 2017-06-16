@@ -35,7 +35,6 @@
   color: white;
   font-size: 24px;
   font-style: italic;
-  /*margin-left: 40%;*/
   font-family: 'Monoton', cursive;
 }
 
@@ -46,4 +45,10 @@
 .navbar-header {
   text-align: center;
   font-family: 'Libre Baskerville', serif;
+}
+
+.pipes {
+  color: white;
+  font-size: 16px;
+  margin-top: 14px;
 }
