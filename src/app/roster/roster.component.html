@@ -12,14 +12,19 @@
    </select>
 <br><br>
 
-
-<div *ngFor="let player of players | async | position:filterByPosition" class="panel panel-primary">
-  <div class="panel-body">
-    <h3 (click)="goToDetailPage(player)"><em>{{player.name}}</em> by {{player.position}}</h3>
-    <div *ngIf="currentRoute === '/admin'">
-      {{player.number}}
-      <hr>
-      <app-edit-player [selectedPlayer]="player"></app-edit-player>
+<div class="row">
+  <div *ngFor="let player of players | async | position:filterByPosition" >
+  <div class="col-md-6">
+    <div class="panel panel-primary">
+      <div class="panel-body">
+        <h3 (click)="goToDetailPage(player)"><em>{{player.name}}</em> - {{player.position}}</h3>
+        <div *ngIf="currentRoute === '/admin'">
+          {{player.number}}
+          <hr>
+          <app-edit-player [selectedPlayer]="player"></app-edit-player>
+        </div>
+      </div>
+    </div>
     </div>
   </div>
 </div>
