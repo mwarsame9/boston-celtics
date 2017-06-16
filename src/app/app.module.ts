@@ -7,13 +7,15 @@ import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { RosterComponent } from './roster/roster.component';
 import { EditPlayerComponent } from './edit-player/edit-player.component';
+import { PlayerDetailComponent } from './player-detail/player-detail.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
     RosterComponent,
-    EditPlayerComponent
+    EditPlayerComponent,
+    PlayerDetailComponent
   ],
   imports: [
     BrowserModule,
