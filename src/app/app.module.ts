@@ -6,12 +6,14 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { WelcomeComponent } from './welcome/welcome.component';
 import { RosterComponent } from './roster/roster.component';
+import { EditPlayerComponent } from './edit-player/edit-player.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     WelcomeComponent,
-    RosterComponent
+    RosterComponent,
+    EditPlayerComponent
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,23 @@
+<h4>Edit Player</h4>
+
+<div>
+  <label>New Player Name:</label>
+  <br>
+  <input [(ngModel)]="selectedPlayer.name">
+</div>
+
+<div>
+  <label>New Player Position:</label>
+  <br>
+  <input [(ngModel)]="selectedPlayer.position">
+</div>
+
+<div>
+  <label>New Player Age:</label>
+  <br>
+  <textarea [(ngModel)]="selectedPlayer.age"></textarea>
+</div>
+<br>
+<button (click)="beginUpdatingPlayer(selectedPlayer)">Update</button>
+<hr>
+<button (click)="beginDeletingPlayer(selectedPlayer)">Delete</button>
