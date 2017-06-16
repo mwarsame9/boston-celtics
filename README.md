@@ -1,28 +1,37 @@
-# BostonCeltics
+# Boston Celtics
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.0.
+This is an an application that manages the roster of a basketball team. The application allows admins to add new players to by submitting a form with player name, position, and number. It also allows admins to view a list of all players or filter by position.
 
-## Development server
+## Installation
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
+* `git clone https://github.com/mwarsame9/boston-celtics`
+* `npm install`
+* `bower install`
+* `ng build`
+* `ng serve`
 
-## Code scaffolding
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive/pipe/service/class/module`.
+## Known Bugs
 
-## Build
+* None
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory. Use the `-prod` flag for a production build.
+## Support and contact details
 
-## Running unit tests
+If you have any problems you can contact the creator of the code <a href="https://github.com/mwarsame9/">here</a>
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Technologies Used
 
-## Running end-to-end tests
+* JavaScript
+* Angular 2
+* Typescript
+* HTML
+* CSS
+* Bootstrap
+* Bower
+* Firebase
 
-Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protractortest.org/).
-Before running the tests make sure you are serving the app via `ng serve`.
+### License
 
-## Further help
+This software is made available under the terms of the MIT license.
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+Copyright (c) 2017 **Mohamed Warsame**
