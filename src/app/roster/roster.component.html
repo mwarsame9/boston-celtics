@@ -1,0 +1,25 @@
+<h1>Roster</h1>
+<br>
+
+
+<p>Filter by Position</p>
+
+<select (change)="onChange($event.target.value)">
+     <option value="allPlayers" selected="selected">All Players</option>
+     <option value="guards">Guards</option>
+     <option value="forwards">Forwards</option>
+     <option value="centers">Centers</option>
+   </select>
+<br><br>
+
+
+<div *ngFor="let player of players | async | position:filterByPosition" class="panel panel-primary">
+  <div class="panel-body">
+    <h3 (click)="goToDetailPage(player)"><em>{{player.name}}</em> by {{player.position}}</h3>
+    <div *ngIf="currentRoute === '/admin'">
+      {{player.age}}
+      <hr>
+      <app-edit-player [selectedPlayer]="player"></app-edit-player>
+    </div>
+  </div>
+</div>
