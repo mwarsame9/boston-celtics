@@ -1,0 +1,62 @@
+{ "players": [{
+    "name": "Avery Bradley",
+    "position": "Guard",
+    "number": "0",
+    "id": "1"
+    }, {
+    "name": "Jaylen Brown",
+    "position": "Forward",
+    "number": "7",
+    "id": "2"
+    }, {
+    "name": "Jae Crowder",
+    "position": "Forward",
+    "number": "99",
+    "id": "3"
+    }, {
+    "name": "Gerald Green",
+    "position": "Forward",
+    "number": "30",
+    "id": "4"
+    }, {
+    "name": "Al Horford",
+    "position": "Center",
+    "number": "42",
+    "id": "5"
+    }, {
+    "name": "Jonas Jerebko",
+    "position": "Forward",
+    "number": "8",
+    "id": "6"
+    }, {
+    "name": "Amir Johnson",
+    "position": "Forward",
+    "number": "90",
+    "id": "7"
+    }, {
+    "name": "Kelly Olynyk",
+    "position": "Forward",
+    "number": "41",
+    "id": "8"
+    }, {
+    "name": "Terry Rozier",
+    "position": "Guard",
+    "number": "12",
+    "id": "9"
+    }, {
+    "name": "Marcus Smart",
+    "position": "guard",
+    "number": "36",
+    "id": "10"
+    }, {
+    "name": "Isaiah Thomas",
+    "position": "Guard",
+    "number": "4",
+    "id": "11"
+      }, {
+    "name": "Tyler Zeller",
+    "position": "Center",
+    "number": "44",
+    "id": "12"
+  }]
+}
