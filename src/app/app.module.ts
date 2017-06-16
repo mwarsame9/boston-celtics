@@ -9,6 +9,7 @@ import { RosterComponent } from './roster/roster.component';
 import { EditPlayerComponent } from './edit-player/edit-player.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
 import { AboutComponent } from './about/about.component';
+import { AdminComponent } from './admin/admin.component';
 
 @NgModule({
   declarations: [
@@ -17,7 +18,8 @@ import { AboutComponent } from './about/about.component';
     RosterComponent,
     EditPlayerComponent,
     PlayerDetailComponent,
-    AboutComponent
+    AboutComponent,
+    AdminComponent
   ],
   imports: [
     BrowserModule,
