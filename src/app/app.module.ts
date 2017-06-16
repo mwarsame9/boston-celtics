@@ -8,6 +8,7 @@ import { WelcomeComponent } from './welcome/welcome.component';
 import { RosterComponent } from './roster/roster.component';
 import { EditPlayerComponent } from './edit-player/edit-player.component';
 import { PlayerDetailComponent } from './player-detail/player-detail.component';
+import { AboutComponent } from './about/about.component';
 
 @NgModule({
   declarations: [
@@ -15,7 +16,8 @@ import { PlayerDetailComponent } from './player-detail/player-detail.component';
     WelcomeComponent,
     RosterComponent,
     EditPlayerComponent,
-    PlayerDetailComponent
+    PlayerDetailComponent,
+    AboutComponent
   ],
   imports: [
     BrowserModule,
